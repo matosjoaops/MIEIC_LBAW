@@ -6,32 +6,60 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous" defer></script>
 
-          <div class="card mb-3" style="max-width: 700px;">
-            <div class="row p-2">
-              <div class="col-md-4">
-                <img src="beach.jpeg" class="card-img mx-3" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body mx-auto" style="width: 300px;">
-                  <h5 class="card-title">Reported by User A</h5>
-                  <p class="card-text">Offensive Content!!</p>
-                  <div class="container">
-                      <div class="row">
-                        <div class="col-md-auto">
-                            <a href="#" class="btn btn-primary">Accept</a>
-                        </div>
-                          <div class="col-md-auto">
-                              <a href="#" class="btn btn-primary">Reject</a>
-                          </div>
-                        
-                    </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Offensive Content!!
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                This is the body of the report. Here the report submitter must explain the reason for the report's existence. I am absolutely not writing this just because it looks better with more text in it. I would never do such a thing and I won't allow anyone to question that ever.
+                <div class="row mt-3 g-0">
+                  <div class="col">
+                    <small class="text-muted">Submitted by User A</small>
                   </div>
+
+                  <div class="col-1">
+                    <button type="button" class="btn btn-primary">Accept</button>
+                  </div>
+                  <div class="col-1 ms-3">
+                    <button type="button" class="btn btn-primary">Reject</button>
+                  </div>
+                  
                   
                   
                 </div>
               </div>
+              
             </div>
           </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
 
     </body>
 </head>
