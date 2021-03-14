@@ -1,7 +1,6 @@
-# Collaborative Q&A
+# ER: Requirements Specification
  Travelers all around the globe flood the internet with searches regarding recommendations for their trips. Travaholic shows up as a powerful solution and tool for all of them providing a social platform that allows them to question and answer other users.
 
-# ER: Requirements Specification
 ## A1: Travaholic
 
 With this project, we aim to create a platform where people who are interested in traveling or intend to travel somewhere can ask questions and/or provide answers with the intent of helping others who want to travel. 
